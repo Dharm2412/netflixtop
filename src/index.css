@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* .header{
+  background-color:rgb(32, 35, 34) ;
+  height: 115px;
+  color: rgb(235, 32, 32);
+  display: flex;
+  justify-content: center;
+}
+.header h1{
+  margin-top: 28px;
+} */
+
+.header {
+  background-color:rgb(29, 26, 26) ; /* Initial background color */
+  height: 115px;
+  color: rgb(235, 32, 32);
+  display: flex;
+  justify-content: center;
+  animation: changeColor 5s infinite alternate; /* Animation properties */
+}
+
+.header h1 {
+  margin-top: 28px;
+  font-family: cursive;
+}
+
+/* heare to start */
+/* Styles for the box container */
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Styles for the thumbnail component */
+.thumbnail {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 200px; /* Adjusted for a more consistent size */
+  margin: 10px;
+  margin-right: 200px;
+}
+
+.thumbnail img {
+
+  width: 100%; /* Ensure the image fits within the thumbnail */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.caption {
+  padding: 10px;
+  text-align: center;
+}
+.thumbnail h4 {
+  display: flex;
+  justify-content: center;
+  top: 10px;
+  left: 10px;
+  color: rgb(12, 12, 12);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.footer {
+  background-color: #131A22; /* Light grey background */
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
+  color: #f9f4f4;
+}
+
+.footer .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: transparent; /* Bootstrap primary blue */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.thumbnail img{
+  height: 397px;
+  width: 298px;
+}
